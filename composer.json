@@ -1,0 +1,15 @@
+{
+    "name": "Next Spend",
+    "description": "NextSpend provides financial management capabilities",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Mike Roper"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

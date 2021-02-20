@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>nextspend</id>
+    <name>Next Spend</name>
+    <summary>NextSpend provides financial management capabilities</summary>
+    <description><![CDATA[The application provides basic budgeting of expenses.
+
+Track income
+Track savings
+Track spending
+Categorize spending
+Reporting]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="mike.roper07@gmail.com" >Mike Roper</author>
+    <namespace>NextSpend</namespace>
+    <category>office</category>
+    <category>organization</category>
+    <bugs>https://github.com/iochrdy/NextSpend/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Next Spend</name>
+            <route>nextspend.page.index</route>
+        </navigation>
+    </navigations>
+</info>
